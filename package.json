@@ -3,15 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://Semsveta.github.io/storybook-issue",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build",
-    "storybook:build": "build-storybook",
-    "storybook:deploy": "gh-pages -d storybook-static"
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "@primeuix/themes": "^1.2.1",
